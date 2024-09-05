@@ -132,10 +132,10 @@
         }
         map.createPane('pane_Background_0');
         map.getPane('pane_Background_0').style.zIndex = 400;
-        var layer_Background_0 = L.tileLayer('https://mt1.google.com/vt/lyrs=p&x={x}&y={y}&z={z}', {
+        var layer_Background_0 = L.tileLayer('https://a.basemaps.cartocdn.com/light_nolabels/{z}/{x}/{y}.png', {
             pane: 'pane_Background_0',
             opacity: 1.0,
-            attribution: '<a href="https://www.google.at/permissions/geoguidelines/attr-guide.html">Map data ©2015 Google</a>',
+            attribution: '<a href="https://cartodb.com/basemaps/">Map tiles by CartoDB, under CC BY 3.0. Data by OpenStreetMap, under ODbL.</a>',
             minZoom: 1,
             maxZoom: 17,
             minNativeZoom: 0,
