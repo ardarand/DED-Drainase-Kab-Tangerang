@@ -1090,6 +1090,8 @@
             sel_layer.multiple = true;
             sel_layer.size = 10;
             sel_layer.id = "sel_layer";
+            sel_layer.style.overflowX = 'auto'; // Add horizontal scroll
+            sel_layer.style.whiteSpace = 'nowrap'; // Prevent text wrapping
             var layer_options_str = "<option value='' unselected></option>";
             sel_layer.onchange = function(){filterFunc()};
             layer_options_str  += '<option value="Perencanaan Teknis Drainase Jalan Cadas - Kukun">Perencanaan Teknis Drainase Jalan Cadas - Kukun</option>';
